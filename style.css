@@ -1,0 +1,65 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/ITedInnovator/hello-theme-child-pol/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child-pol
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+body {
+    font-family: "Red Hat Display";
+}
+
+.category-page{
+    width: 60%;
+    margin: 50px auto;
+
+}
+
+img {
+    padding: 0.1em;
+}
+
+.category-title {
+    font-size: 2.5rem;
+    color: #CB6015;
+    text-align: center;
+    margin-bottom: 1.15em;
+
+}
+
+.blog-title {
+    color: #CB6015;
+    font-size: 2rem;
+    margin-inline: 25px;
+}
+
+p, .blog-title:hover {
+    color: #ffffff;
+    margin-inline: 25px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1.75em;
+}
+
+.post {
+    border: solid white 1px;
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 700px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
